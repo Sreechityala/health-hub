@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Health Hub</title>
+        <link rel="stylesheet" href="/static/css/medicine.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <div class="medicine-container">
+            <h1 class="main-heading">24/7 Healthcare</h1>
+            <h3 class="heading">Buy Medicines</h3>
+
+            <div class="card-container">
+                <div class="medicine">
+                    <p class="pack">Uprise-D3 1000IU Capsule</p>
+                    <p class="cost">Total Cost: 50/- </p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Uprise-D3 1000IU Capsule$50" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine">
+                    <p class="pack">HealthVit Chromium Pincolinate 200mcg Capsule</p>
+                    <p class="cost">Total Cost: 30/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="HealthVit Chromium Pincolinate 200mcg Capsulee$30" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine"> 
+                    <p class="pack">Vitamin B Complex Capsules</p>
+                    <p class="cost">Total Cost: 44/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Vitamin B Complex Capsules$44" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine">
+                    <p class="pack">Inlife Vitamin E Wheat Germ Oil Capsule</p>
+                    <p class="cost">Total Cost: 53/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Inlife Vitamin E Wheat Germ Oil Capsule$53" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine">
+                    <p class="pack">Dolo 650 Tablet</p>
+                    <p class="cost">Total Cost: 30/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Dolo 650 Tablet$30" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine">
+                    <p class="pack">Crocin 650 Advanced Tablet</p>
+                    <p class="cost">Total Cost: 50/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Crocin 650 Advanced Tablet$50" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine">
+                    <p class="pack">Strepsils Medicated Lozenges for Sore Throat</p>
+                    <p class="cost">Total Cost: 40/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Strepsils Medicated Lozenges for Sore Throat$40" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine">
+                    <p class="pack">Tata 1mg calcium + Vitamin D3</p>
+                    <p class="cost">Total Cost: 30/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Tata 1mg calcium + Vitamin D3$30" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+                <hr>
+
+                <div class="medicine">
+                    <p class="pack">Feronia-XT Tablet</p>
+                    <p class="cost">Total Cost: 30/-</p>
+                    <form action="/addcart" method="post">
+                        <input type="hidden" value="Feronia-XT Tablet$30" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="buttons">
+                <a href="/orders"> <button class="btn">GO TO CART</button></a>
+                <a href='/dashboard'><button type="submit" class="btn" >BACK</button></a>
+            </div>
+        </div>
+    </body>
+</html>

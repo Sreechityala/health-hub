@@ -1,0 +1,44 @@
+.container {
+    background-image: url('../images/background-1.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    color: brown;
+    font-size: 18px;
+    font-family: "Bree Serif";
+    margin: 50px;
+}
+
+.name {
+    color: blue;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.cost {
+    color: brown;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.btn {
+    background-color: rgb(10, 95, 159);
+    align-self: flex-end;
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

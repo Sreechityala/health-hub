@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Health Hub</title>
+    <link rel="stylesheet" href="/static/css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="app-container">
+            <div class="sign-up-container">
+                <h1 class="main-heading">HEALTH HUB</h1>
+                <p class="text">Sign up</p>
+                <form action='/signup' method="post">
+                    <div class="form-container">
+                    <div class="input">
+                        <i class="fa fa-user-circle-o" style="font-size: 1.5em; margin-right:10px;" aria-hidden="true"></i>
+                        <input type="text" id="name" class="input-text" placeholder="Enter username" name="username" required/>
+                    </div>
+                    <br>
+    
+                    <div class="input">
+                        <i class="fa fa-envelope" style="font-size: 1.5em; margin-right:10px;" aria-hidden="true"></i>
+                        <input type="text" id="email" class="input-text" placeholder="Enter Email" name="email" required/>
+                    </div>
+                    <br>
+    
+                    <div class="input">
+                        <i class="fa fa-phone" style="font-size: 1.5em; margin-right:15px;" aria-hidden="true"></i>
+                        <input type="number" id="phn" class="input-text" placeholder="Enter Phone number" name='mobile' required/>
+                    </div>
+                    <br>
+    
+                    <div class="input">
+                        <i class="fa fa-user" style="font-size: 1.5em; margin-right:15px;" aria-hidden="true"></i>
+                        <input type="radio" id="html" name="gender" class="radio-text" value="Female" name="gender">
+                        <label for="html" class="label">Female</label>
+                        <br>
+                        <input type="radio" id="html" name="gender" class="radio-text" value="Male" name="gender">
+                        <label for="html">Male</label>
+                    </div>
+                    <br>
+    
+                    <div class="input">
+                        <i class="fa fa-lock" style="font-size: 1.5em; margin-right:15px;" aria-hidden="true"></i>
+                        <input type="password" id="password" class="input-text" placeholder="Enter Password" name="password" required/>
+                    </div>
+                    <br>
+    
+                    <div class="input">
+                        <i class="fa fa-lock" style="font-size: 1.5em; margin-right:15px;" aria-hidden="true"></i>
+                        <input type="password" id="c-password" class="input-text" placeholder="Confirm Password" name="cpassword" required/>
+                    </div>
+
+                    <button type="submit" class="btn">Sign up</button>
+                </div>
+                    {{status}}
+                </form>
+            </div>
+    </div>
+
+    <script>
+        function login() {
+            window.location = "login.html";
+        }
+    </script>
+</body>
+</html>

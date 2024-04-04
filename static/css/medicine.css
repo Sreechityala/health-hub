@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.medicine-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/background-1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.main-heading {
+    color: brown;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.heading {
+    color: blue;
+    font-size: 2rem;
+}
+
+.card-container {
+    background-color: lightpink;
+    width: 40%;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.medicine {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.pack {
+    color: rgb(227, 56, 37);
+}
+
+.cost {
+    align-self: flex-end;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgb(10, 95, 159);
+    align-self: flex-end;
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+}
+
+.card-btn {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(10, 95, 159);
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+}

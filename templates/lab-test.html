@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Health Hub</title>
+        <link rel="stylesheet" href="/static/css/lab-test.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <div class="lab-test-container">
+            <h1 class="main-heading">24/7 Healthcare</h1>
+            <h3 class="heading">Lab Test and Packages</h3>
+
+            <div class="lab-tests">
+                <div class="Package">
+                    <p class="pack">Package 1: Full Body Checkup</p>
+                    <p class="cost">Total Cost: 499/-</p>
+                    <form action="/labcart" method="post">
+                        <input type="hidden" value="Package 1: Full Body Checkup$499" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+                    </form>
+                </div>
+                <hr>
+
+                <div class="Package">
+                    <p class="pack">Package 2: Blood Glucose Fasting</p>
+                    <p class="cost">Total Cost: 299/-</p>
+                    <form action="/labcart" method="post">
+                        <input type="hidden" value="Package 2: Blood Glucose Fasting$299" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+                    </form>
+                </div>
+                <hr>
+                <div class="Package"> 
+                    <p class="pack">Package 3: Endoscopy Checkup</p>
+                    <p class="cost">Total Cost: 299/-</p>
+                    <form action="/labcart" method="post">
+                        <input type="hidden" value="Package 3: Endoscopy Checkup$299" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+                    </form>
+                </div>
+                <hr>
+
+                <div class="Package">
+                    <p class="pack">Package 4: Thyroid Checkup</p>
+                    <p class="cost">Total Cost: 499/-</p>
+                    <form action="/labcart" method="post">
+                        <input type="hidden" value="Package 4: Thyroid Checkup$499" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+                    </form>
+                </div>
+                <hr>
+
+                <div class="Package">
+                    <p class="pack">Package 5: Immunity Checkup</p>
+                    <p class="cost">Total Cost: 699/-</p>
+                    <form action="/labcart" method="post">
+                        <input type="hidden" value="Package 5: Immunity Checkup$699" name="item" readonly /> 
+                        <input type="submit" class="card-btn" value="addToCart" />
+                    </form>
+                </div>
+            </div>
+            <div class="buttons">
+                <a href="/laborders"><button type="submit" class="btn">GO TO CART</button></a>
+                <a href='/dashboard'><button class="btn" >BACK</button></a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.doctors-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/background-1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.main-heading {
+    color: brown;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.heading {
+    color: blue;
+    font-size: 2rem;
+}
+
+.doctor-list {
+    background-color: lightpink;
+    width: 40%;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.name {
+    color: rgb(227, 56, 37);
+    font-size: 18px;
+}
+
+.description {
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.description1 {
+    align-self: flex-start;
+}
+
+.sub-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgb(10, 95, 159);
+    align-self: flex-end;
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+}

@@ -1,0 +1,38 @@
+.app-container {
+    background-image: url("../images/index-bg-1.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-left: 50px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.main-heading {
+    color: darkmagenta;
+    font-size: 40px;
+    font-family: "Bree Serif";
+    font-weight: 600;
+}
+
+.description {
+    color: hsl(230, 83%, 57%);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Bree Serif";
+}
+
+.account-status {
+    color: black;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}

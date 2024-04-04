@@ -1,0 +1,82 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/signup-bg.jpg");
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Bree Serif";
+    align-self: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.input-text {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-text {
+    color: black;
+    font-size: 18px;
+    font-family: "Bree Serif";
+    margin-right: 10px;
+}
+
+.form-container p {
+    align-self: flex-start;
+}
+
+.btn {
+    background-color: aquamarine;
+    width: 80px;
+    height: 40px;
+    color: black;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}

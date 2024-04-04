@@ -1,0 +1,93 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/signup-bg.jpg");
+    background-size: cover;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-heading {
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Bree Serif";
+    align-self: center;
+}
+
+.text {
+    color:lightseagreen;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto";
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-text {
+    color: brown;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    width: 35%;
+    margin: 0px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.input-text {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.gender {
+    color: brown;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    width: 35%;
+    margin: 0px;
+}
+
+.label {
+    margin: 1px;
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: aquamarine;
+    width: 80px;
+    height: 40px;
+    color: black;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 10px;
+}

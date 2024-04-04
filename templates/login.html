@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Health Hub</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="login-container">
+            <h1 class="main-heading">Login</h1>
+            <form action='/login' method='post'>
+                <div class="form-container">
+                    <div class='input-field'>
+                        <i class="fa fa-envelope" style="font-size: 1.5em; margin-right:10px;" aria-hidden="true"></i>
+                        <input type="email" id="name" class="input-text" placeholder="Enter Email" name="email" required/>
+                    </div>
+                    <br>
+                    <div class='input-field'>
+                        <i class="fa fa-key" style="font-size: 1.5em; margin-right:10px;" aria-hidden="true"></i>
+                        <input type="password" id="password" class="input-text" placeholder="Enter Password" name="password" required/>
+                    </div>
+                    <p><a href="#">forgot password?</a></p>
+
+                    <input type="submit" value="Login" class="btn" />
+                    <div class="other">
+                        <p class="other-text">don't have an account?</p>
+                        <a href="/signup">Sign Up</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
